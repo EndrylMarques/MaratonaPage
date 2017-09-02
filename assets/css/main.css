@@ -2094,64 +2094,38 @@
 
 		}
 
-/* Intro */
+/* home */
 
-	#intro {
+	#home {
 		background: url("images/overlay.png"), url("../../images/logo-maratona-2016.jpg");
-		background-size: 40% 500px;
+		background-size: 30%;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom right;
 		background-repeat: repeat, no-repeat;
 	}
 
-/* One */
+/* OqueÉ */
 
-	#one {
+	#OqueÉ {
 		background: url("images/overlay.png"), url("../../images/01.jpg");
 		background-size: 100% 100%, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Two */
+/* programação */
 
-	#two {
+	#programação {
 		background: url("images/overlay.png"), url("../../images/medalhas.jpg");
 		background-size: 100% 100%;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Contact */
 
-	#contact {
-		overflow: hidden;
-		padding-bottom: 0;
-	}
 
-		#contact .box {
-			-moz-transition: -moz-transform 1s ease;
-			-webkit-transition: -webkit-transform 1s ease;
-			-ms-transition: -ms-transform 1s ease;
-			transition: transform 1s ease;
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			position: relative;
-		}
 
-		#contact.inactive .box {
-			-moz-transform: translateY(100%);
-			-webkit-transform: translateY(100%);
-			-ms-transform: translateY(100%);
-			transform: translateY(100%);
-		}
+		
+		
 
-		@media screen and (max-width: 736px) {
-
-			#contact .box {
-				padding-bottom: 2em;
-			}
-
-		}
+	
